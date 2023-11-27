@@ -30,23 +30,23 @@
       "Java": false
     },
     "Docker": {
-      "Dockerfile": true,
+      "Dockerfile": false,
       "DockerfileAutobuild": false,
       "DockerBuildShellScript": false,
       "DockerSwarm": false
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": false,
-        "FullSql": false,
+        "DiffSql": true,
+        "FullSql": true,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
         "ConnectionString": null
       },
       "PostgreSql": {
-        "DiffSql": true,
-        "FullSql": true,
+        "DiffSql": false,
+        "FullSql": false,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
