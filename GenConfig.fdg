@@ -37,16 +37,16 @@
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": true,
-        "FullSql": true,
+        "DiffSql": false,
+        "FullSql": false,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
         "ConnectionString": null
       },
       "PostgreSql": {
-        "DiffSql": false,
-        "FullSql": false,
+        "DiffSql": true,
+        "FullSql": true,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
